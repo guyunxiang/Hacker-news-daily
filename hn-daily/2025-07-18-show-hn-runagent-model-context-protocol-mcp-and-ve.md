@@ -1,0 +1,11 @@
+# Show HN: RunAgent: Model Context Protocol (MCP) and Vercel but for AI Agents
+
+**Posted by adewba on 2025-07-18**
+
+RunAgent is a universal AI agent deployment platform that addresses the language barriers and deployment complexities in AI development. Unlike most AI frameworks such as LangChain, LangGraph, CrewAI, and Letta—which typically offer Python SDKs and fragmented deployment processes—RunAgent enables developers to write agents once in Python using any framework and access them natively from Rust, JavaScript, Go, or other languages through comprehensive SDKs.
+
+The platform operates through a framework-agnostic entrypoint system. Developers provide a simple configuration file and their agent code, then deploy with a single terminal command to receive an agent ID and endpoint. The real magic happens within the SDKs, allowing developers to call deployed agents as if they were native functions, with full support for both synchronous and streaming responses.
+
+RunAgent is open-sourced to promote ecosystem growth, echoing the success of MCP (Model Context Protocol). By standardizing Python agent structures via straightforward config files, it encourages community-driven development. Python developers can create agents that any other developer—regardless of language—can discover and deploy instantly. For example, a Rust developer needing specific agent functionality can find community-contributed agents and deploy them with a single command, effectively removing language barriers.
+
+The open-source core handles local development and supports a multi-language SDK ecosystem. Meanwhile, the upcoming cloud platform promises Vercel-like simplicity—serverless infrastructure capable of deploying 2,000 agents in under 10 seconds. RunAgent aims to democratize AI agent access across all programming languages and eliminate deployment friction that currently confines developers to Python, JavaScript, or TypeScript workflows. It positions itself as "MCP for Agent Deployment," offering the same standardization MCP brought to model context, but applied to agent deployment and cross-language accessibility.
